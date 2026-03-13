@@ -1,0 +1,1 @@
+import{i as e,r as t}from"./AppInput-OO3MCQAl.js";var n=t({email:e().email(`Invalid email`),password:e().min(6,`Min 6 characters`)}),r=n.extend({username:e().min(2,`Min 2 characters`).max(50,`Max 50 characters`)});export{r as n,n as t};
